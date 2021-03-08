@@ -167,8 +167,8 @@ function Switch(btn){
 			} 
 		});
 		
-		document.documentElement.style.setProperty('--bgimgnow', "url(../images/bg"+(oldbtni+1)+".png)");
-		document.documentElement.style.setProperty('--bgimgnext', "url(../images/bg"+(nowbtni+1)+".png)");
+		document.documentElement.style.setProperty('--bgimgnow', "url(../images/bg"+(oldbtni+1)+".jpg)");
+		document.documentElement.style.setProperty('--bgimgnext', "url(../images/bg"+(nowbtni+1)+".jpg)");
 
 		$("#bgimgnow").removeClass("hide");
 			setTimeout(function(){
