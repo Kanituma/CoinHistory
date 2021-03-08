@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			width: 100%;
+			height: 100%;
+		}
+		.text {
+			width: 100px;
+			font-size: 24px;
+			color: black;
+			margin: 200px auto
+
+		}
+	</style>
+</head>
+<body>
+	<div class="text">秦代衡制</div>
+</body>
+<script src="bafflechn.js">
+</script>
+<script>
+	let b = baffle('.text', {
+    characters: 'ㄛㄨㄜㄠㄩㄙㄟㄣㄆㄐㄋㄔㄧㄒㄊㄌㄗㄈㄅㄉㄓㄚㄞㄢㄦㄤ',
+    speed: 75
+});
+	// b.start();
+	b.reveal(5000,1000)
+</script>
+</html>
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+</head>
+<body>
+<div id="loading">
+	<svg viewBox="0 0 200 200" fill="#fffee8" stroke="#000" stroke-width="5">
+	<!-- <defs>
+		<style>.cls-1{fill:#fffee8;stroke:black;stroke-width="2"}
+</style>
+</defs> -->
+	<path id="ldcoin1" class="cls-1" d="M89.36,13.5l-12,8s-11,0-11,3,13,52,10,55c-5-1-23-1-24-3-3,4,4,20,2,48s-6,58-6,58-4,4,14,4,21-3,21-3l7-41h21s3,44,8,44,29,0,31-1,2-4,1-14-8-67-6-80,2-15,2-15-23,4-25,3,8-48,8-52-8-11-9-11h-8l-2-3a15,15,0,0,1-12,6C91.36,19.5,89.36,13.5,89.36,13.5Z" />
+	<path id="ldcoin2" class="cls-1" d="M101.93,48s-32,1-32,17c-13-2-48-12-56-9s-11,15,8,45,32,41,32,41,5,11,47,10,46-4,57-17,32-45,34-63-4-28-33-15c-15,6-24,8-24,8S133.93,48,101.93,48Z"/>
+</div>
+<!-- <div class="clickdown">
+	<div class="click-line">
+		<div class="clickword">
+			<h6>click</h6>
+		</div>
+	</div>
+	 -->
+</div>
+<div id="ldbg"></div>
+<div class="bg-l"></div>
+<div class="bg-r"></div>
+<div class="bgpic" id="bgpic1">
+	<div class="bgimg" id="bgimgnext"></div>
+	<div class="bgimg" id="bgimgnow"></div>
+	
+</div>
+<div class="switch">
+	<label class="cbxlabel" id="cbxlb1">
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn1" checked />
+		<div class="circle" >
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<label class="cbxlabel" id="cbxlb2">
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn2" />
+		<div class="circle">
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<label class="cbxlabel" id="cbxlb3" >
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn3" />
+		<div class="circle">
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<label class="cbxlabel" id="cbxlb4">
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn4" />
+		<div class="circle">
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<label class="cbxlabel" id="cbxlb5">
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn5" />
+		<div class="circle">
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<label class="cbxlabel" id="cbxlb6">
+		<input type="checkbox" class="cbxbtn" name="cbxbtn" id="btn6" />
+		<div class="circle">
+			<div class="circleinner"></div>
+			<div class="circleouter"></div>
+		</div>
+	</label>
+	<div class="ver"></div>
+</div>
+
+<div class="main-l" >
+	<div id="coin"></div>
+	<div id="stamp">
+	</div>
+	<div class="tagsec">
+		<div class="tag" id="tag-l">
+			<p>纪年货币<br/>
+				纪重货币
+			</p>
+
+		</div>
+		<div class="tag" id="tag-r">
+			<p>十六进制<br/>
+				十进制
+			</p>
+
+		</div>
+	</div>
+</div>
+<div class="main-r" id="page1">
+	<div id="title">
+		<p>秦代衡制</p>
+		<img src="images/titledeco-l.png" alt="" class="titledec-l">
+		<img src="images/titledeco-r.png" alt="" class="titledec-r">
+	
+	</div>
+	<div class="main-top">
+		<div class="main-top-container">
+			<div class="main-top-flex" id="top-l">
+				<div id="top-l-coin"></div>
+				<svg id="scalesvg" data-name="scalesvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361.44 345">
+				<path d="M847.68,712.5c-.72-2-1.29-4.06-2.18-6q-32-69.06-64-138.11c-.75-1.62-1.4-3.28-2.21-5.21,3.31-1.72,6.24-3.26,9.19-4.76q31.13-15.87,62.24-31.76c1.88-1,4.14-2.07,5.1-3.75A123.45,123.45,0,0,1,890,484.54c-9.63-14.7-9.19-28.82,3.09-43.19H887c-17.66,0-35.32,0-53,0-24.45-.06-42.2-17.77-42.33-42.21,0-8.5.28-17-.11-25.49-.24-5,1.64-6.63,6.3-6,1.61.21,3.26.21,5.63.35v11.07c0,6.67,0,13.33,0,20,.12,17.53,12.69,30.32,30.23,30.41,27.5.13,55,0,82.48,0h167.46c20.78,0,32.94-12.12,33-32.85,0-8,.29-16-.09-24-.25-5.09,2.51-5.19,6.18-5.16,3.43,0,6.09,0,5.84,4.88-.59,11.79.39,23.75-1.2,35.38-2.63,19.23-20.08,33.41-39.61,33.55s-39,0-58.49,0h-6.64c5.81,6.55,9.38,13.13,9.88,21s-1.93,15.09-6.78,21.87c1.32,1.09,2.54,2.15,3.81,3.15a126.73,126.73,0,0,1,26.54,29,25.57,25.57,0,0,0,9,8.07c23.6,12.3,47.39,24.26,71.11,36.34,1.45.74,2.85,1.6,4.55,2.55l-69,149.13Zm6.54-125.24c2.92,54.1,51.81,96.39,99,95.58,2.55-2.71-2.48-9.13,4.43-9.31,7.3-.19,2.09,6.82,5.53,9.94,27.32-1.69,51.16-12.3,70.46-32.61q25.2-26.5,28.29-63.33c-1.56-.13-2.37-.25-3.18-.25-2.61,0-5.09.1-5-3.75.08-3.49,2.09-4.23,4.91-4,3.9.31,3.68-2.11,3.56-4.82A104.4,104.4,0,0,0,993.41,481c-10-3.63-20.28-6.08-30.73-5.83-2.29,2.71,1.32,8.14-4.78,8.19-6.42.06-2.57-5.73-4.67-8.07-57.24.65-102.33,54-98.94,104.23,2.07,0,4.2.08,6.32,0,3-.14,4.16,1.24,4.1,4.2s-1.61,3.69-4.17,3.59C858.57,587.2,856.6,587.26,854.22,587.26Zm270.89-18.64-56.86-28.93c14.63,54.86,2.57,101-43.61,134.3-38.32,27.58-81.08,30.25-122.06,7-53.93-30.63-69.85-78.92-56-138.74L795,568.55c.54,1.43.78,2.22,1.13,3q29,62.51,57.83,125c1.66,3.61,4,3.74,7.16,3.73q98.74,0,197.49.06c4,0,6.16-1.16,7.9-5,14.61-31.92,29.47-63.74,44.23-95.59C1115.47,589.57,1120.17,579.32,1125.11,568.62Zm-224.62-91c38.67-20,76.75-19.82,114.67-.15a9.67,9.67,0,0,0,1.33-1.14c4.6-6.1,5.64-12.72,2.36-19.69-3.55-7.54-9.85-11.1-18-11.16-17.65-.12-35.29,0-52.93,0-11.15,0-22.31-.17-33.46.08-8.39.18-14.76,4.15-17.84,12.1C893.82,464.82,895,471.57,900.49,477.61Z" fill="#59493f" transform="translate(-779.28 -367.5)" />
+				<circle cx="180.72" cy="215.77" r="9.2" fill="#59493f"/>
+				<rect id="needle" class="ndanimation" x="180.72" y="212" width="67.08" height="9.13" rx="3.97" ry="3.97"  fill="#59493f"/>
+				</svg>
+				<p>1斤=<span id="counter1" class="counter bold">0</span>两=<span id="counter2" class="counter bold">0</span>g</p></div>
+			<div class="main-top-flex" id="top-m">
+				<svg  id="bm-m-coin"></svg>
+				<p>1两=<span id="counter3" class="counter bold">0</span>铢</p></div>
+			<div class="main-top-flex" id="top-r">
+			<p><span class="bold">五十两</span><span id="coinname">秦货币</span></p>
+			<p>重量等于</p>
+			<svg id="bm-r-coin"></svg>
+			<p><span class="bold" id="coinnum"><span class="counter" id="counter4">0</span>枚</span><span class="coin1">第五套人民币一元硬币</span></p>
+			</div>
+		</div>
+	</div>
+	<div class="main-bottom">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;在秦统一六国之前，各国钱币的形状不一，如铲币、刀币、环钱等，且只能在各自统辖的范围内流通；秦始皇在统一六国后，确定统一法律、度量衡、货币和文字，废止了战国后期六国旧钱，在战国秦半两钱的基础上加以改进，圆形方孔的秦半两钱在全国通行，结束了我国古代货币形状各异、重量悬殊的杂乱状态。</p>	
+	</div>
+</div>
+<div class="main-r" id="page2">
+	<div id="title2">
+		<p>纪重货币</p>
+		<img src="images/titledeco-l.png" alt="" class="titledec-l">
+		<img src="images/titledeco-r.png" alt="" class="titledec-r"></div>
+	<div class="page2-p">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;铢两钱币时期，从公元前221年秦始皇统一中国，到公元621年唐高祖下令铸“开元通宝”钱结束，共800余年。所谓“铢两钱币”就是钱体上铸有标明钱币重量的文字，也称作“纪重钱币”，这一时期的钱币钱文由原先纪地的性质变为纪重性质，钱文以篆字为主，在南北朝时出现了由篆书向隶、楷过渡的趋势。多种钱币形态并存的局面宣告结束，方孔圆钱成为货币的主流。
+			<br></p>
+	</div>
+</div>
+<div class="main-r" id="page3">
+	<div id="title3">
+		<p>十进制</p>
+		<img src="images/titledeco-l.png" alt="" class="titledec-l">
+		<img src="images/titledeco-r.png" alt="" class="titledec-r"></div>
+	<div class="page3-p">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一枚开元通宝钱“重二铢四絫”，十枚正好重二十四铢，恰好就是一两。而一枚开元通宝钱币，又被称为一钱，即一枚钱币，重量正好是一两的十分之一，这样就衍生出来“钱”这样一个重量单位。这不但是重量单位“钱”的由来，还是我国衡法改为十进制的开始。
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是衡量单位的一次重要改进，从此重量单位不再称絫、铢，而改称钱、两。因此，从开元通宝开始，货币不但不再以重量为名称，反而使中国的重量单位以货币即“钱”为名称了。</p>
+	</div>
+</div>
+
+<div id="backfo" class="off">
+	<label for="backcbx" name="backfolb" class="lbche" id="back">
+		<input type="checkbox" name="backfocbx"  id="backcbx" checked="checked">
+		<p class="text" id="backtext">BACK</p>
+	</label>
+	<label for="focbx" name="backfolb" class="lbunche" id="foward" >
+		<input type="checkbox" name="backfocbx" id="focbx" >
+		<p class="text" id="fotext">EXPLORE</p>
+	</label>
+</div>
+<svg>
+		<filter id="distortionFilter">
+			<feTurbulence type="fractalNoise" baseFrequency="1" numOctaves="6" seed="3" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+			<feDisplacementMap in="SourceGraphic" in2="noise" scale="-20" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse">
+			<animate attributeName="scale" from="0" to="200" dur="2s" repeatCount="indefinite" />
+			</feDisplacementMap>
+		</filter>
+	</svg>
+</body>
+</html>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/lottie.js">
+</script>
+<script src="js/lottie_svg.js"></script>
+<script src="js/lottie_html.js"></script>
+<script src="js/anime.3.0.0-alpha.js"></script>
+<script src="js/findShapeIndex.js"></script>
+  <script src="js/TimelineLite.min.js"></script>
+  <script src="js/MorphSVGPlugin.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/bafflechn.js"></script>
+  <script src="js/main.js"></script>
